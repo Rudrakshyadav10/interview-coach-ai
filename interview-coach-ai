@@ -9,6 +9,13 @@
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        }
+    </style>
 </head>
 <body>
     <div id="root"></div>
@@ -346,3 +353,15 @@ Return ONLY a valid JSON array with 6 objects. No markdown, no extra text. Start
     </script>
 </body>
 </html>
+```
+
+---
+
+## **Fix the 404 Error - Step by Step**
+
+### **Step 1: Your Project Structure Should Look Like This**
+```
+interview-coach-ai/
+├── index.html          ← Your HTML file
+├── vercel.json         ← NEW: Add this file
+└── .gitignore
